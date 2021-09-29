@@ -1,0 +1,242 @@
+body {
+    background-color: #303030;
+}
+
+.portfolio-header {
+    position: relative;
+    background-color: #303030;
+}
+
+.portfolio-header .mdl-layout__header-row {
+    padding: 0;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.mdl-layout__title {
+    font-size: 14px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.is-compact .mdl-layout__title span {
+    display: none;
+}
+
+.portfolio-logo-row {
+    min-height: 200px;
+}
+
+.is-compact .portfolio-logo-row {
+    min-height: auto;
+}
+
+.portfolio-logo {
+    background: url(../images/logo.png) 50% no-repeat;
+    background-size: cover;
+    height: 160px;
+    width: 160px;
+    margin: auto auto auto auto;
+}
+
+.is-compact .portfolio-logo {
+    height: 50px;
+    width: 50px;
+    margin-top: 7px;
+}
+
+.portfolio-navigation-row {
+    background-color: #212121;
+    text-transform: uppercase;
+    height: 45px;
+}
+
+.portfolio-navigation-row .mdl-navigation {
+    text-align: center;
+    max-width: 900px;
+    width: 100%;
+}
+
+.portfolio-navigation-row .mdl-navigation__link {
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    line-height: 42px;
+}
+
+.portfolio-header .mdl-layout__drawer-button {
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.portfolio-navigation-row .is-active {
+    position: relative;
+}
+
+.portfolio-navigation-row .is-active:after {
+    content: "";
+    width: 70%;
+    height: 2px;
+    display: block;
+    position: absolute;
+    bottom: 0;
+    background-color: rgb(255, 0, 0);
+    left: 15%;
+}
+
+.portfolio-card .mdl-card__title {
+    padding-bottom: 0;
+}
+
+.portfolio-blog-card-full-bg {
+    background: url(../images/example-blog03.jpg) center / cover;
+}
+
+.portfolio-blog-card-event-bg {
+    background: url(../images/example-blog05.jpg) center / cover;
+}
+
+.portfolio-blog-card-strip-bg {
+    background: url(../images/example-blog06.jpg) center / cover;
+}
+
+.portfolio-blog-card-compact .mdl-card__title {
+    padding-bottom: 0;
+}
+
+.portfolio-blog-card-bg > .mdl-card__actions {
+    height: 52px;
+    padding: 16px;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+img.article-image {
+    width: 100%;
+    height: auto;
+}
+
+.portfolio-max-width {
+    max-width: 900px;
+    margin: auto;
+}
+
+.portfolio-copy {
+    max-width: 700px;
+}
+
+.no-padding {
+    padding: 0;
+}
+
+.no-left-padding {
+    padding-left: 0;
+}
+
+.no-bottom-padding {
+    padding-bottom: 0;
+}
+
+.padding-top {
+    padding: 10px 0 0;
+}
+
+.portfolio-share-btn {
+    position: relative;
+    float: right;
+    top: -4px;
+}
+
+.demo-card-event > .mdl-card__actions {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.portfolio-contact .mdl-textfield {
+    width: 100%;
+}
+
+.portfolio-contact form {
+    max-width: 550px;
+    margin: auto;
+}
+
+footer {
+    background-color: #303030;
+    background-size: cover;
+}
+
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #303030;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ff0000;
+    border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #ff0000;
+}
+
+.mdl-mini-footer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 8px 8px 8px 8px;
+    color: #9e9e9e;
+    background-color: #212121;
+}
+
+.mdl-layout__drawer {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    width: 240px;
+    height: 100%;
+    max-height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
+    box-sizing: border-box;
+    border-right: 1px solid #ff0000;
+    background: #ff0000;
+    -webkit-transform: translateX(-250px);
+    transform: translateX(-250px);
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    will-change: transform;
+    transition-duration: .2s;
+    transition-timing-function: cubic-bezier(.4, 0, .2, 1);
+
+    color: #424242;
+    overflow: visible;
+    overflow-y: auto;
+    z-index: 5
+}
+
+a{
+    color: red;
+}
