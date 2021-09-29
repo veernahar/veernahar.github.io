@@ -203,6 +203,24 @@ footer {
     background-color: #212121;
 }
 
+.mdl-mini-footer-2 {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 8px 8px 8px 8px;
+    color: #9e9e9e;
+    background-color: #212121;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
 .mdl-layout__drawer {
     display: -webkit-flex;
     display: -ms-flexbox;
