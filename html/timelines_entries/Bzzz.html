@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="description" content="Veer Nahar's Portfolio">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+        <title>Contact</title>
+        <link rel="stylesheet"
+            href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en">
+        <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.grey-pink.min.css" />
+        <link rel="stylesheet" href="../../css/styles.css" />
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    </head>
+
+    <body>
+        <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+            <header class="mdl-layout__header mdl-layout__header--waterfall portfolio-header">
+                <div class="mdl-layout__header-row portfolio-logo-row">
+                    <span class="mdl-layout__title">
+                        <div class="portfolio-logo"></div>
+                        <span class="mdl-layout__title mdl-color-text--white">Portfolio</span>
+                    </span>
+                </div>
+                <div class="mdl-layout__header-row portfolio-navigation-row mdl-layout--large-screen-only">
+                    <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font">
+                        <a class="mdl-navigation__link mdl-color-text--white is-active" href="../../index.html">Home</a>
+                        <a class="mdl-navigation__link mdl-color-text--white" href="../cad.html">CAD</a>
+                        <a class="mdl-navigation__link mdl-color-text--white" href="../programming.html">Programming</a>
+                        <a class="mdl-navigation__link mdl-color-text--white" href="../contact.html">Contact</a>
+                    </nav>
+                </div>
+            </header>
+            <div class="mdl-layout__drawer mdl-layout--small-screen-only" style="background: #303030 !important;">
+                <nav class="mdl-navigation mdl-typography--body-1-force-preferred-font"
+                    style="background-color: #303030 !important; color: #303030 !important;">
+                    <a class="mdl-navigation__link is-active mdl-color-text--white" href="../../index.html">Home</a>
+                    <a class="mdl-navigation__link mdl-color-text--white" href="../cad.html">CAD</a>
+                    <a class="mdl-navigation__link mdl-color-text--white" href="../programming.html">Programming</a>
+                    <a class="mdl-navigation__link mdl-color-text--white" href="../contact.html">Contact</a>
+                </nav>
+            </div>
+            <main class="mdl-layout__content">
+                <div class="mdl-grid portfolio-max-width">
+                    <div class="mdl-cell mdl-cell--12-col mdl-card mdl-shadow--4dp" style="background: #212121;">
+                        <div class="mdl-card__title">
+                            <h2 class="mdl-card__title-text mdl-color-text--white">Bzzz</h2>
+                        </div>
+                        <div class="mdl-grid portfolio-copy">
+                            <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline mdl-color-text--white">
+                                Background</h3>
+                            <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding">
+                                <p class="mdl-color-text--white">
+                                    In March 2020, at the start of the Covid-19 Pandemic, school had just been canceled,
+                                    with plans to go remote
+                                    in a week. My sister my mom and I were sitting on the couch talking, when my sister
+                                    complained "when do we
+                                    get to go back to school." That's when my mom had the idea to make a device that
+                                    would buzz when you came
+                                    within 6 feet of another person wearing the same device.
+                                </p>
+                            </div>
+                            <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline mdl-color-text--white">Bzzz v0
+                            </h3>
+                            <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding ">
+                                <p class="mdl-color-text--white">
+                                    After researching for a while, I decided to prototype the idea first, using two
+                                    raspberry pi's. The idea was
+                                    the both devices would be transmitting and receiving bluetooth signals, and by
+                                    comparing the signal strength
+                                    of the received signals against a threshold, we would be able to determine roughly
+                                    how far away the
+                                    other devices were. Based on that, the devices would buzz/not buzz. I ordered the
+                                    parts that I would need,
+                                    and after a few weeks I had a prototype working. I made a python program to print
+                                    out the signal strength of
+                                    the other raspberry pi, and the results looked promising, so it was time to move on
+                                    to v1.
+                                </p>
+                            </div>
+                            <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline mdl-color-text--white">Bzzz v1
+                            </h3>
+                            <div class="mdl-cell mdl-cell--6-col">
+                                <img class="article-image" src="../../images/Rookie%20Year%20Judging.jpg" alt="">
+                            </div>
+                            <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding ">
+                                <p class="mdl-color-text--white">
+                                    Raspberry Pi's are very big, and for that reason I chose not to use them in v1.
+                                    Instead, I opted for the
+                                    Arduino compatible ESP32 dev board, which has a bluetooth chip on it. I soldered on
+                                    a vibration motor, and
+                                    got the same code from the Raspberry Pi prototype working in C++ on the EPS32's.
+                                    After decided on a
+                                    threshold that seemed to be somewhat close to 6 feet, and finding that it worked
+                                    decently, I decided to
+                                    contact my school to see if they had any interest in this project, since the whole
+                                    point was to help with
+                                    social distancing so that we could get back to school sooner.
+                                </p>
+                            </div>
+                            <h3 class="mdl-cell mdl-cell--12-col mdl-typography--headline mdl-color-text--white">
+                                Reaching out to School</h3>
+                            <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding ">
+                                <p class="mdl-color-text--white">
+                                    I had a meeting with the school head and some other staff, and in my presentation I
+                                    proposed a timeline and
+                                    BOM that would end with the devices being ready before school started the next year
+                                    and an initial proposed
+                                    cost of <b style="color:red">15 dollars</b> per device. We ended the meeting, and
+                                    they said they would
+                                    talk it over and get back to us. Later that day, they emailed us saying they said
+                                    they would sponsor the
+                                    project by covering prototyping costs and buying <b style="color:red">750
+                                        devices</b> for a total budget
+                                    of <b style="color:red">10 thousand dollars.</b>
+                                </p>
+                            </div>
+
+                            <div class="mdl-cell mdl-cell--6-col mdl-card__supporting-text no-padding ">
+                                <p class="mdl-color-text--white">
+                                    Over the course of the next couple months, I worked on the internals, the code,
+                                    the case, and getting it production ready. After a lot of work, here is what it
+                                    looked like:
+                                </p>
+                            </div>
+
+                            <div class="mdl-cell mdl-cell--6-col">
+                                <img class="article-image" src="../../images/" alt="">
+                            </div>
+
+                            <div class="mdl-cell mdl-cell--12-col mdl-card__supporting-text no-padding ">
+                                <p class="mdl-color-text--white">
+                                    How it ended
+                                </p>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+                <footer class="mdl-mini-footer">
+                    <div class="mdl-mini-footer__left-section">
+                        <div class="mdl-logo">Simple portfolio website</div>
+                    </div>
+                    <div class="mdl-mini-footer__right-section">
+                        <ul class="mdl-mini-footer__link-list">
+                            <li><a href="https://github.com/veernahar/veernahar.github.io" target="_blank">Source
+                                    Code</a>
+                            </li>
+                            <li><a href="mailto:veernahar@outlook.com">Contact</a></li>
+                        </ul>
+                    </div>
+                </footer>
+            </main>
+        </div>
+        <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+    </body>
+
+</html>
