@@ -100,7 +100,8 @@ body {
 
 img.article-image {
     width: 100%;
-    height: auto;
+    height: 100%;
+
 }
 
 .portfolio-max-width {
@@ -245,4 +246,51 @@ footer {
 
 a{
     color: red;
+}
+
+.demo-charts {
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+.demo-chart:nth-child(2) {
+    color: #ACEC00;
+}
+.demo-chart:nth-child(3) {
+    color: #00BBD6;
+}
+.demo-chart:nth-child(4) {
+    color: #BA65C9;
+}
+.demo-chart:nth-child(5) {
+    color: #EF3C79;
+}
+.demo-graphs {
+    padding: 16px 32px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+}
+/* TODO: Find a proper solution to have the graphs
+ * not float around outside their container in IE10/11.
+ * Using a browserhacks.com solution for now.
+ */
+_:-ms-input-placeholder, :root .demo-graphs {
+    min-height: 664px;
+}
+_:-ms-input-placeholder, :root .demo-graph {
+    max-height: 300px;
+}
+/* TODO end */
+.demo-graph:nth-child(1) {
+    color: #00b9d8;
+}
+.demo-graph:nth-child(2) {
+    color: #d9006e;
 }
